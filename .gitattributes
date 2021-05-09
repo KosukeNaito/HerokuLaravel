@@ -1,0 +1,21 @@
+* text=auto
+*.css linguist-vendored
+*.scss linguist-vendored
+*.js linguist-vendored
+CHANGELOG.md export-ignore
+.editorconfig binary
+.env.example binary
+.gitattributes binary
+.gitignore binary
+.styleci.yml binary
+app/Console/Kernel.php binary
+app/Exceptions/Handler.php binary
+app/Http/Controllers/Auth/ForgotPasswordController.php binary
+app/Http/Controllers/Auth/LoginController.php binary
+app/Http/Controllers/Auth/RegisterController.php binary
+app/Http/Controllers/Auth/ResetPasswordController.php binary
+app/Http/Controllers/Auth/VerificationController.php binary
+app/Http/Controllers/Auth/Controller.php binary
+
+
+
