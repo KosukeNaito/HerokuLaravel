@@ -7,6 +7,9 @@
     <title>@yield('title')</title>
 </head>
 <body>
+<header>
+    <h1>内藤昂佑の暇つぶしサイト</h1>
+</header>
     <div class="container">
         @yield('content')
     </div>

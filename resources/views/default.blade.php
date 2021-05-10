@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
-@section('title', '内藤のポートフォリオ')
+@section('title', '内藤の暇つぶし')
 
 @section('content')
-    <H1>Hello World</H1>
 @endsection
