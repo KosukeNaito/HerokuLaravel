@@ -9,6 +9,14 @@
 <body>
 <header>
     <h1>内藤昂佑の暇つぶしサイト</h1>
+    <nav>
+        <ul>
+            <li><a href="#">自己紹介</a></li>
+            <li><a href="#">制作物</a></li>
+            <li><a href="#">日記</a></li>
+            <li><a href="#">お問合せ</a></li>
+        </ul>
+    </nav>
 </header>
     <div class="container">
         @yield('content')
