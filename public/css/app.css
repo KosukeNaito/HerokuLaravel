@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Kaku Gothic Pro", "\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3", メイリオ, Meiryo, "\FF2D\FF33   \FF30\30B4\30B7\30C3\30AF", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #e6e6e6;
+}
+
