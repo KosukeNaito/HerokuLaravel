@@ -5,7 +5,7 @@
     <meta http-equiv="X-US-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title')</title>
-    <link rel="styleshet" href="{{ asset('css/app.scss') }}">
+    <link rel="stylesheet" href="{{ asset('css/app.scss') }}">
 </head>
 <body>
 <header>
