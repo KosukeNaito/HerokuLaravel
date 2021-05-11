@@ -1956,6 +1956,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -37676,25 +37677,42 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "container-fluid bg-dark mb-3" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("nav", { staticClass: "navbar navbar-dark" }, [
-          _c("span", { staticClass: "navbar-brand mb-0 h1" }, [
-            _vm._v("内藤昂佑の暇つぶしサイト")
-          ]),
-          _vm._v(" "),
-          _c("button", { staticClass: "btn btn-success" }, [
-            _vm._v("自己紹介")
-          ]),
-          _vm._v(" "),
-          _c("button", { staticClass: "btn btn-success" }, [_vm._v("制作物")]),
-          _vm._v(" "),
-          _c("button", { staticClass: "btn btn-success" }, [_vm._v("日記")]),
-          _vm._v(" "),
-          _c("button", { staticClass: "btn btn-success" }, [
-            _vm._v("問い合わせ")
-          ]),
-          _vm._v("\n            /ul>\n        ")
-        ])
+      _c("div", { staticClass: "container pt-3" }, [
+        _c(
+          "nav",
+          { staticClass: "navvar navbar-dark bg-dark navbar-expand-lg" },
+          [
+            _c("a", { staticClass: "navbar-brand", attrs: { href: "/" } }, [
+              _vm._v("内藤昂佑の暇つぶしサイト")
+            ]),
+            _vm._v(" "),
+            _c("ul", { staticClass: "navbar-nav" }, [
+              _c("li", { staticClass: "nav-item" }, [
+                _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
+                  _vm._v("自己紹介")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "nav-item" }, [
+                _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
+                  _vm._v("制作物")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "nav-item" }, [
+                _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
+                  _vm._v("日記")
+                ])
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "nav-item" }, [
+                _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
+                  _vm._v("問い合わせ")
+                ])
+              ])
+            ])
+          ]
+        )
       ])
     ])
   }

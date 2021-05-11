@@ -11,7 +11,9 @@
 <body>
     <div id="app">
         <header-component></header-component>
-        @yield('content')
+        <div class="content">
+            @yield('content')
+        </div>
     </div>
     <script src="{{ mix('/js/app.js') }}" defer></script>
 </body>
