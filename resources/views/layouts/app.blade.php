@@ -6,23 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title')</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}"/>
+    <link rel="stylesheet" href="{{ mix('/css/app.css')}}"/>
 </head>
 <body>
-<header>
-    <h1>
-        <a href="/">内藤昂佑の暇つぶしサイト</a>
-    </h1>
-        <nav class="myNav">
-        <ul>
-            <li><a href="#">自己紹介</a></li>
-            <li><a href="#">制作物</a></li>
-            <li><a href="#">日記</a></li>
-            <li><a href="#">お問合せ</a></li>
-        </ul>
-    </nav>
-</header>
-    <div class="container">
+    <div id="app">
+        <header-component></header-component>
         @yield('content')
     </div>
+    <script src="{{ mix('/js/app.js') }}" defer></script>
 </body>
 </html>
