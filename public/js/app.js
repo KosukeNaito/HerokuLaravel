@@ -49946,7 +49946,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nValidationError: Invalid options object. Sass Loader has been initialized using an options object that does not match the API schema.\n - options has an unknown property 'outputStyle'. These properties are valid:\n   object { implementation?, sassOptions?, prependData?, sourceMap?, webpackImporter? }\n    at validate (D:\\MyProgram\\PHP\\HerokuLaravel\\node_modules\\schema-utils\\dist\\validate.js:98:11)\n    at Object.loader (D:\\MyProgram\\PHP\\HerokuLaravel\\node_modules\\sass-loader\\dist\\index.js:36:28)\n    at D:\\MyProgram\\PHP\\HerokuLaravel\\node_modules\\webpack\\lib\\NormalModule.js:316:20\n    at D:\\MyProgram\\PHP\\HerokuLaravel\\node_modules\\loader-runner\\lib\\LoaderRunner.js:367:11\n    at D:\\MyProgram\\PHP\\HerokuLaravel\\node_modules\\loader-runner\\lib\\LoaderRunner.js:233:18\n    at runSyncOrAsync (D:\\MyProgram\\PHP\\HerokuLaravel\\node_modules\\loader-runner\\lib\\LoaderRunner.js:143:3)\n    at iterateNormalLoaders (D:\\MyProgram\\PHP\\HerokuLaravel\\node_modules\\loader-runner\\lib\\LoaderRunner.js:232:2)\n    at D:\\MyProgram\\PHP\\HerokuLaravel\\node_modules\\loader-runner\\lib\\LoaderRunner.js:205:4\n    at D:\\MyProgram\\PHP\\HerokuLaravel\\node_modules\\enhanced-resolve\\lib\\CachedInputFileSystem.js:85:15\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
