@@ -11,11 +11,11 @@
 |
 */
 
-/*Route::get('/', function () {
+Route::get('/', function () {
    return view('default');
 });
-*/
+
 
 Route::get('/{any}', function() {
-    return view('default');
+    return view('app');
 });
