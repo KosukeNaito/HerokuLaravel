@@ -4,7 +4,9 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 import Vue from "vue";
+import VueRouter from "vue-router";
 import HeaderComponent from "./components/HeaderComponent";
+import SelfIntroductionComponent from "./components/SelfIntroductionComponent"
 
 require('./bootstrap');
 
@@ -24,6 +26,20 @@ window.Vue = require('vue');
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('header-component', HeaderComponent);
 
+Vue.use(VueRouter);
+
+const router = new VueRouter({
+    mode: 'history',
+    routes: [
+        {
+            path: '/selfIntroduction',
+            name: 'selfIntroduction',
+            component: SelfIntroductionComponent
+        }
+    ]
+});
+
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -32,4 +48,5 @@ Vue.component('header-component', HeaderComponent);
 
 const app = new Vue({
     el: '#app',
+    router
 });
