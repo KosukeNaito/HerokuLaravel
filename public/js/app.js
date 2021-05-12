@@ -37782,7 +37782,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
+    return _c("div", { staticClass: "anim-box fadeup js-animated" }, [
       _c("h2", [_vm._v("自己紹介ページ")]),
       _vm._v(" "),
       _c("h3", [_vm._v("プロフィール")]),
