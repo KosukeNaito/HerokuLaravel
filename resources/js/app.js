@@ -32,8 +32,8 @@ const router = new VueRouter({
     mode: 'history',
     routes: [
         {
-            path: '/selfIntroduction',
-            name: 'selfIntroduction',
+            path: '/SelfIntroduction',
+            name: 'SelfIntroduction',
             component: SelfIntroductionComponent
         }
     ]

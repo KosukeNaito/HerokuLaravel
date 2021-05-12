@@ -1957,6 +1957,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -37701,55 +37703,71 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", { staticClass: "container-fluid bg-dark mb-3" }, [
+    _c("div", { staticClass: "container pt-3" }, [
+      _c(
+        "nav",
+        { staticClass: "navvar navbar-dark bg-dark navbar-expand-lg" },
+        [
+          _c("a", { staticClass: "navbar-brand", attrs: { href: "/" } }, [
+            _vm._v("内藤昂佑の暇つぶしサイト")
+          ]),
+          _vm._v(" "),
+          _c(
+            "ul",
+            { staticClass: "navbar-nav" },
+            [
+              _c(
+                "router-link",
+                { attrs: { to: { name: "SelfIntroduction" } } },
+                [
+                  _c("li", { staticClass: "nav-item" }, [
+                    _c("a", { staticClass: "nav-link" }, [_vm._v("自己紹介")])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _vm._m(0),
+              _vm._v(" "),
+              _vm._m(1),
+              _vm._v(" "),
+              _vm._m(2)
+            ],
+            1
+          )
+        ]
+      )
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container-fluid bg-dark mb-3" }, [
-      _c("div", { staticClass: "container pt-3" }, [
-        _c(
-          "nav",
-          { staticClass: "navvar navbar-dark bg-dark navbar-expand-lg" },
-          [
-            _c("a", { staticClass: "navbar-brand", attrs: { href: "/" } }, [
-              _vm._v("内藤昂佑の暇つぶしサイト")
-            ]),
-            _vm._v(" "),
-            _c("ul", { staticClass: "navbar-nav" }, [
-              _c("li", { staticClass: "nav-item" }, [
-                _c(
-                  "a",
-                  {
-                    staticClass: "nav-link",
-                    attrs: { href: "/SelfIntroduction" }
-                  },
-                  [_vm._v("自己紹介")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("li", { staticClass: "nav-item" }, [
-                _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-                  _vm._v("制作物")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("li", { staticClass: "nav-item" }, [
-                _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-                  _vm._v("日記")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("li", { staticClass: "nav-item" }, [
-                _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
-                  _vm._v("問い合わせ")
-                ])
-              ])
-            ])
-          ]
-        )
+    return _c("li", { staticClass: "nav-item" }, [
+      _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
+        _vm._v("制作物")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "nav-item" }, [
+      _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
+        _vm._v("日記")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "nav-item" }, [
+      _c("a", { staticClass: "nav-link", attrs: { href: "#" } }, [
+        _vm._v("問い合わせ")
       ])
     ])
   }
@@ -37782,7 +37800,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "anim-box fadeup js-animated" }, [
+    return _c("div", [
       _c("h2", [_vm._v("自己紹介ページ")]),
       _vm._v(" "),
       _c("h3", [_vm._v("プロフィール")]),
@@ -37790,7 +37808,7 @@ var staticRenderFns = [
       _c("p", [
         _vm._v("\n        出身：福井県"),
         _c("br"),
-        _vm._v("\n        趣味：ゲーム、アプリ開発"),
+        _vm._v("\n        趣味：ゲーム・アプリ開発"),
         _c("br"),
         _vm._v("\n        使ってきた言語：Java, C#, PHP, JavaScript\n    ")
       ]),
@@ -53180,8 +53198,8 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   mode: 'history',
   routes: [{
-    path: '/selfIntroduction',
-    name: 'selfIntroduction',
+    path: '/SelfIntroduction',
+    name: 'SelfIntroduction',
     component: _components_SelfIntroductionComponent__WEBPACK_IMPORTED_MODULE_3__["default"]
   }]
 });

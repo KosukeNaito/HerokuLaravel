@@ -4,7 +4,9 @@
             <nav class="navvar navbar-dark bg-dark navbar-expand-lg">
                 <a class="navbar-brand" href="/">内藤昂佑の暇つぶしサイト</a>
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="/SelfIntroduction">自己紹介</a></li>
+                    <router-link v-bind:to="{name: 'SelfIntroduction'}">
+                        <li class="nav-item"><a class="nav-link">自己紹介</a></li>
+                    </router-link>
                     <li class="nav-item"><a class="nav-link" href="#">制作物</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">日記</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">問い合わせ</a></li>
