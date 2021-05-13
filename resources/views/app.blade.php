@@ -12,7 +12,7 @@
     <div id="app">
         <header-component></header-component>
 
-        <div>
+        <div class="centeringItem">
             <router-view></router-view>
         </div>
     </div>
