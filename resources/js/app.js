@@ -7,6 +7,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import HeaderComponent from "./components/HeaderComponent";
 import SelfIntroductionComponent from "./components/SelfIntroductionComponent"
+import HomeCompnent from "./components/HomeComponent";
 
 require('./bootstrap');
 
@@ -25,6 +26,7 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('header-component', HeaderComponent);
+Vue.component('home-component', HomeCompnent);
 
 Vue.use(VueRouter);
 
@@ -35,6 +37,11 @@ const router = new VueRouter({
             path: '/SelfIntroduction',
             name: 'SelfIntroduction',
             component: SelfIntroductionComponent
+        },
+        {
+            path: '/',
+            name: 'Home',
+            component: HomeCompnent
         }
     ]
 });

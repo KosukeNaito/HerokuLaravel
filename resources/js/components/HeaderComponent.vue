@@ -2,7 +2,9 @@
     <div class="container-fluid bg-dark mb-3">
         <div class="container pt-3">
             <nav class="navvar navbar-dark bg-dark navbar-expand-lg">
-                <a class="navbar-brand" href="/">内藤昂佑の暇つぶしサイト</a>
+                <router-link v-bind:to="{name: 'Home'}">
+                    <a class="navbar-brand">内藤昂佑の暇つぶしサイト</a>
+                </router-link>
                 <ul class="navbar-nav">
                     <router-link v-bind:to="{name: 'SelfIntroduction'}">
                         <li class="nav-item"><a class="nav-link">自己紹介</a></li>
